@@ -1,0 +1,15 @@
+Pre- requisite:
+to run this project, you will need:
+Java 8
+Maven 3
+
+Framework used:
+Page Object Model and Data Driven Framework - filetype used: csv and Excel
+JAVA 8 and Selenium Webdriver 2.53.1
+Cucumber 1.2.5 for BDD using Gherkin 2.12
+Browser used: Chrome, chromeDriver - 2.37
+
+
+
+
+Notes: When used intelli j, Please uninstall substep definition plugin, to enable cucumber feature.

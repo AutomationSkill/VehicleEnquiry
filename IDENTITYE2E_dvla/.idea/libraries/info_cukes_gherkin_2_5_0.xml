@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="info.cukes:gherkin:2.5.0" type="repository">
+    <properties maven-id="info.cukes:gherkin:2.5.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.5.0/gherkin-2.5.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/iharder/base64/2.3.8/base64-2.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

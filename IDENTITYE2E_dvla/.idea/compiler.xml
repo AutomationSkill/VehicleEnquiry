@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="IDENTITY E2E" />
+        <module name="IDENTITYE2E" />
+        <module name="IDENTITYE2E_dvla" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="IDENTITY E2E" target="1.8" />
+      <module name="IDENTITYE2E" target="1.8" />
+      <module name="IDENTITYE2E_dvla" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

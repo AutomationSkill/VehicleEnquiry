@@ -1,0 +1,254 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Read vehicle details from csv files and verify the details",
+        "description": "",
+        "id": "user-should-be-able-to-read-and-verify-the-vehicle-details;read-vehicle-details-from-csv-files-and-verify-the-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2701658067,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "vehicle details are loaded from input directory \"inputFiles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inputFiles",
+                  "offset": 49
+                }
+              ],
+              "location": "VehicleEnquiryStepDefinition.readInputDirectory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19204368,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "scanned and loaded the files for \"CSV\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CSV",
+                  "offset": 34
+                }
+              ],
+              "location": "VehicleEnquiryStepDefinition.scanAndLoadFiles(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 944716517,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is in dvla vehicle info page",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1437645768,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects start search for the vehicle information",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.startSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369934277,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters registration number",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.user_enters_registration_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 392549748,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects continue",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.userSelectsContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210782197,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the vehicle details",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.verify_the_vehicle_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@vehicle"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Read vehicle details from csv files and verify the details",
+        "description": "",
+        "id": "user-should-be-able-to-read-and-verify-the-vehicle-details;read-vehicle-details-from-csv-files-and-verify-the-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1678781918,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "vehicle details are loaded from input directory \"inputFiles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inputFiles",
+                  "offset": 49
+                }
+              ],
+              "location": "VehicleEnquiryStepDefinition.readInputDirectory(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 918542187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "scanned and loaded the files for \"EXCEL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EXCEL",
+                  "offset": 34
+                }
+              ],
+              "location": "VehicleEnquiryStepDefinition.scanAndLoadFiles(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1402155754,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is in dvla vehicle info page",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.homePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1530027532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects start search for the vehicle information",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.startSearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 762557036,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters registration number",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.user_enters_registration_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368247358,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects continue",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.userSelectsContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192509163,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the vehicle details",
+            "match": {
+              "location": "VehicleEnquiryStepDefinition.verify_the_vehicle_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@vehicle"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to read and verify the vehicle details",
+    "description": "",
+    "id": "user-should-be-able-to-read-and-verify-the-vehicle-details",
+    "keyword": "Feature",
+    "uri": "features/VehicleEnquiry.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@vehicle"
+      }
+    ]
+  }
+]
